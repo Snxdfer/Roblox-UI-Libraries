@@ -20,7 +20,6 @@ MakeWindow({
   }
 })
 
-
 MinimizeButton({
   Image = "",
   Size = {40, 40},
@@ -31,8 +30,6 @@ MinimizeButton({
 })
 
 local Main = MakeTab({Name = "Main"})
-
-
 
 MakeNotifi({
   Title = "REDz HUB",
@@ -58,8 +55,6 @@ local Toggle = AddToggle(Main, {
   end
 })
 
-
-
 local Slider = AddSlider(Main, {
   Name = "Slider test",
   MinValue = 10,
@@ -80,7 +75,6 @@ AddKeybind(Main, {
   end
 })
 
-
 AddTextBox(Main, {
   Name = "TextBox test",
   Default = "good day",
@@ -91,7 +85,6 @@ AddTextBox(Main, {
   end
 })
 
-
 local Dropdown = AddDropdown(Main, {
   Name = "Dropdown test",
   Options = {"1", "2", "3"},
@@ -101,8 +94,6 @@ local Dropdown = AddDropdown(Main, {
   end
 })
 
-
-
 AddColorPicker(Main, {
   Name = "Color picker test",
   Default = Color3.fromRGB(255, 255, 0),
@@ -111,9 +102,11 @@ AddColorPicker(Main, {
   end
 })
 
-local Label = AddTextLabel(Main, "AutoFarm")
+local Label = AddTextLabel(Main, "Fixed LOL")
+SetLabel(Label, "ez fix")
 
-local Paragraph = AddParagraph(Main, {"Paragraph test", "good day"})
+local Paragraph = AddParagraph(Main, {"Note", "Fix"})
+SetParagraph(Paragraph, {"Note", "LOL!"})
 
 local Image = AddImageLabel(Main, {
   Name = "Cool Image",
