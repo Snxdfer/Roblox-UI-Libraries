@@ -35,6 +35,7 @@ local Tab = Window:CreateTab({
 	ImageSource = "Material",
 	ShowTitle = true -- This will determine whether the big header text in the tab will show
 })
+
 Tab:CreateSection("Section Example")
 Section:Set("New Section Name")
 Section:Destroy() -- Destroys the section
@@ -46,6 +47,7 @@ Luna:Notification({
 	Icon = "notifications_active",
 	ImageSource = "Material",
 	Content = "This Is A Preview Of Luna's Dynamic Notification System Entailing Estimated/Calculated Wait Times, A Sleek Design, Icons, And A Glassmorphic Look"
+        Duration = 10
 })
 
 local Button = Tab:CreateButton({
