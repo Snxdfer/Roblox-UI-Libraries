@@ -46,7 +46,7 @@ Luna:Notification({
 	Title = "Luna Notification Example",
 	Icon = "notifications_active",
 	ImageSource = "Material",
-	Content = "This Is A Preview Of Luna's Dynamic Notification System Entailing Estimated/Calculated Wait Times, A Sleek Design, Icons, And A Glassmorphic Look"
+	Content = "This Is A Preview Of Luna's Dynamic Notification System Entailing Estimated/Calculated Wait Times, A Sleek Design, Icons, And A Glassmorphic Look",
         Duration = 10
 })
 
