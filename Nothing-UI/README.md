@@ -1,12 +1,12 @@
 # NOTHING UI
 - Smooth
-- Not lag
-- Open Source
-- Icons: [[https://raw.githubusercontent.com/dawid-scripts/Fluent/refs/heads/master/src/Icons.lua]]
+- Doesnt lag
+- Its Open Source
+- Icons: [[https://raw.githubusercontent.com/Snxdfer/back-ups-for-libs/refs/heads/main/NothingUI/Icons.json]]
   
 ## Require Library
 ```lua
-local NothingLibrary = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Snxdfer/Nothing-UI-Library/refs/heads/main/source.lua'))();
+local NothingLibrary = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Snxdfer/back-ups-for-libs/refs/heads/main/NothingUI/source.lua'))();
 local Windows = NothingLibrary.new({
 	Title = "NOTHING",
 	Description = "Nothing UI Library",
@@ -159,7 +159,7 @@ InfoSection:NewButton({
 # Full Example
 
 ```lua
-local NothingLibrary = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/NOTHING/main/source.lua'))();
+local NothingLibrary = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Snxdfer/back-ups-for-libs/refs/heads/main/NothingUI/source.lua'))();
 local Notification = NothingLibrary.Notification();
 
 Notification.new({
